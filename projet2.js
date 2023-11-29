@@ -56,12 +56,6 @@ for (let i = 0; i < tab.length; i++) {
 console.log("Pas mal !! Votre ton score sur 5..  --->" + score +"/5");
 
 
-
-
-
-
-
-
 if (choice == 0) {
      let random = getRandom(0, 1);
      if (random === playerOne.atks[choice].precision) {
