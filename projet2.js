@@ -54,24 +54,3 @@ for (let i = 0; i < tab.length; i++) {
      }
 }
 console.log("Pas mal !! Votre ton score sur 5..  --->" + score +"/5");
-
-
-if (choice == 0) {
-     let random = getRandom(0, 1);
-     if (random === playerOne.atks[choice].precision) {
-       console.log(
-         "Le " +
-           playerBot.name +
-           " perd " +
-           player.atks[choice].puissance +
-           " PV \n"
-       );
-       playerBot.life = playerBot.life - playerBot.atks[choice].puissance;
-       console.log("Il lui reste " + playerBot.life + " PV \n");
-     }
-   } 
-   
-   else { console.log( "Votre attaque n'a pas atteint la cible !! Il lui reste " +playerBot.life + "PV.."
-     );
-   }
-
